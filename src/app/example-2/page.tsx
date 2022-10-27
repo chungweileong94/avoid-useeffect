@@ -20,7 +20,7 @@ const Example2 = () => {
     if (otp.length === OTP_LENGTH) {
       verifyOtpAPI();
     }
-  }, [otp.length]);
+  }, [otp]);
 
   return (
     <div>
